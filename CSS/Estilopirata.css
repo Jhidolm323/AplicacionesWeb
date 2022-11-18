@@ -1,0 +1,43 @@
+/************************************************************************/
+/*                      Web del Romanticismo                            */
+/*                      Hoja de estilo para autores                     */
+/*                      Autor: José Luis Hidalgo Olmedo                 */
+/*                      Versión: 1.0                                    */
+/*                      21 de Octubre de 2022                           */
+/************************************************************************/
+
+
+
+h1 {
+    display: inline-block;
+    text-align: center;
+    border-bottom: solid 4px rgb(188, 188, 220);
+    
+}
+@font-face {
+                src: url('../Fonts/priscillia-demo/Priscillia\ Demo\ Regular.ttf');
+                font-family: "TítulosEspronceda";
+}
+
+@font-face {
+                src: url('../Fonts/priscillia-demo/Priscillia\ Demo\ Regular.ttf');
+                font-family: "pal body";
+}
+
+body {
+    background-color: rgba(240, 248, 255, 0.906);
+    background-image: url(../Images/calaveras.jpg);
+    background-repeat: repeat-y;
+    background-size: 10%;
+    font-family: "pal body";
+    font-size: 19px;
+}
+
+#poema {
+    margin-left: 10%;
+    width:  30%;
+    text-align: center;
+}
+
+
+

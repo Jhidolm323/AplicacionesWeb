@@ -1,0 +1,31 @@
+/************************************************************************/
+/*                      Web del Romanticismo                            */
+/*                      Hoja de estilo para autores                     */
+/*                      Autor: José Luis Hidalgo Olmedo                 */
+/*                      Versión: 1.0                                    */
+/*                      21 de Octubre de 2022                           */
+/************************************************************************/
+
+@font-face {
+    src: url('../Fonts/Fuzzy_Bubbles/FuzzyBubbles-Bold.ttf');
+    font-family: "Espronceda";
+}
+
+body {
+    font-family: "Espronceda";
+    /*Colocamos una foto sola de fondo*/
+    background-image: url('../Images/imagencalidad.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #484C55;
+    height: 90vh;
+}
+
+#poema { 
+    margin-left: 60%;
+}
+
+/******************MEDIA QUERIES*********************/
+@media only screen and (width<=600px){
+                        
+}
